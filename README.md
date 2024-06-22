@@ -15,18 +15,26 @@ LoyaltySystemTest: Contains unit and integration tests for the application.
 
 ## Features
 
--Earn points endpoint
--Code-first database with initial seed data
--JWT authentication
--Swagger integration
--Redis caching
--Keycloak integration for authentication
+Earn points endpoint.
+
+Code-first database with initial seed data.
+
+JWT authentication
+
+Swagger integration
+
+Redis caching
+
+Keycloak integration for authentication
 
 ## Prerequisites
 
 .NET 8 SDK
+
 SQL Server
+
 Redis
+
 Keycloak
 
 ## Setup Instructions
