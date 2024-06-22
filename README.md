@@ -61,12 +61,12 @@ Update the appsettings.json file in the LoyaltySystemAPI project with your SQL S
 
 3-Run database migrations:
 
-dotnet ef migrations add InitialCreate --project LoyaltySystemInfrastructures
-dotnet ef database update --project LoyaltySystemInfrastructures
+	dotnet ef migrations add InitialCreate --project LoyaltySystemInfrastructures
+	dotnet ef database update --project LoyaltySystemInfrastructures
 
 4-Run the application:
 
-dotnet run --project LoyaltySystemAPI
+	dotnet run --project LoyaltySystemAPI
 
 ## Authentication
 The API uses JWT authentication with Keycloak. Ensure that your Keycloak configuration is correctly set up in the appsettings.json file.
